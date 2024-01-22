@@ -40,7 +40,7 @@ do
     end
 end
 
--- rm bin.lua && edit bin.lua && ./bin.lua
+-- rm boot.lua && edit boot.lua && ./boot.lua
 
 -- Reboot after installing all bins
 computer.shutdown(true)
