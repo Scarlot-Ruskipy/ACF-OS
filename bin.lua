@@ -43,6 +43,3 @@ do
 end
 
 -- rm bin.lua && edit bin.lua && ./bin.lua
-
--- Reboot after installing all bins
-computer.shutdown(true)
