@@ -1,4 +1,3 @@
-
 local component = require "component"
 local term = require "term"
 local event = require "event"
@@ -17,7 +16,7 @@ do
         local bootPath = "/boot/" .. boot[i] .. ".lua"
         local handle, chunk = component.proxy(component.list("internet")() or
                                                   error("Required internet component is missing")).request(
-            "https://raw.githubusercontent.com/Scarlot-Ruskipy/ACF-OS/main/bin/" .. boot[i] .. ".lua")
+            "https://raw.githubusercontent.com/Scarlot-Ruskipy/ACF-OS/main/boot/" .. boot[i] .. ".lua")
 
         while true do
             chunk = handle.read(math.huge)
