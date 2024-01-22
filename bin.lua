@@ -42,11 +42,6 @@ do
     end
 end
 
-listener = event.listen("interrupted", function()
-    term.clear()
-    io.popen("reboot")
-end)
-
 -- rm bin.lua && edit bin.lua && ./bin.lua
 
 -- Reboot after installing all bins
