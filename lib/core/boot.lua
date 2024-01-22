@@ -1,7 +1,7 @@
 -- called from /init.lua
 local raw_loadfile = ...
 
-_G._VERSION = 0.0.4;
+_G._VERSION = "0.0.4";
 _G._OSVERSION = "ACF-OS ".. _G._VERSION
 
 -- luacheck: globals component computer unicode _OSVERSION
